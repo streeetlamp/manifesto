@@ -25,3 +25,28 @@ getJSON("https://spreadsheets.google.com/feeds/list/12vqpLpmehBzF4S28IpylhjUlK7J
 .then(data => {
 console.log(data.feed.entry);
 });
+
+    new Vue({
+      el: '#app',
+      data: {
+        sigs: [],
+      },
+      created () {
+        this.fetchData();
+      },
+      methods: {
+        fetchData: function() {
+          // GET request
+          this.getJSON("https://spreadsheets.google.com/feeds/list/12vqpLpmehBzF4S28IpylhjUlK7Js2YyWdV6WCoNYP28/od6/public/values?alt=json").then(data => {
+              console.log(data);
+              // get status
+              // response.status;
+              // this.allMen = response.data.posts.items;
+          }),
+          }, function (response) {
+
+              // error callback
+          })
+        },
+      }
+    })
