@@ -46,7 +46,6 @@ console.log(data.feed.entry);
           }, function (response) {
 
               // error callback
-          })
+          }
         },
-      }
-    })
+      });
