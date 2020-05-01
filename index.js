@@ -42,7 +42,7 @@ console.log(data.feed.entry);
               // get status
               // response.status;
               // this.allMen = response.data.posts.items;
-          }),
+          })
           }, function (response) {
 
               // error callback
