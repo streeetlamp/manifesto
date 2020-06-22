@@ -35,7 +35,7 @@ console.debug(l.pathname)
 
 getJSON("https://spreadsheets.google.com/feeds/list/1h-nGB1WSyYPSnEWHlzKeWeHXvdQlKIq-H-yMAOkosdg/1/public/values?alt=json")
 .then(data => {
-console.log(data.feed.entry);
+// console.log(data.feed.entry);
 });
 
 
