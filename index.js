@@ -21,6 +21,15 @@ function getJSON(url, qs_params) {
 }
 
 
+
+var getLocation = function(href) {
+	var l = document.createElement("a");
+	l.href = href;
+	return l;
+};
+var l = getLocation("http://example.com/path");
+console.debug(l.hostname)
+console.debug(l.pathname)
 // getJSON("https://spreadsheets.google.com/feeds/list/12vqpLpmehBzF4S28IpylhjUlK7Js2YyWdV6WCoNYP28/od6/public/values?alt=json")
 // .then(data => {
 // // console.log(data.feed.entry);
