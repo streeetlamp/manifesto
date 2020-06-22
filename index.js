@@ -30,8 +30,11 @@ var getLocation = function(href) {
 var l = getLocation("https://www.firstthingsfirst2020.org/arabic");
 
 if (l.pathname == '/arabic') {
+	console.log('yay');
 	var body = document.getElementsByTagName("body")[0];
 	body.classList.add('gimme-js');
+} else {
+	console.log('nope');
 }
 
     new Vue({
