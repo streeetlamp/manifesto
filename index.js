@@ -21,10 +21,10 @@ function getJSON(url, qs_params) {
 }
 
 
-getJSON("https://spreadsheets.google.com/feeds/list/12vqpLpmehBzF4S28IpylhjUlK7Js2YyWdV6WCoNYP28/od6/public/values?alt=json")
-.then(data => {
-// console.log(data.feed.entry);
-});
+// getJSON("https://spreadsheets.google.com/feeds/list/12vqpLpmehBzF4S28IpylhjUlK7Js2YyWdV6WCoNYP28/od6/public/values?alt=json")
+// .then(data => {
+// // console.log(data.feed.entry);
+// });
 
     new Vue({
       el: '#app',
