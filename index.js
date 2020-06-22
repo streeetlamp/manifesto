@@ -33,6 +33,7 @@ if (l.pathname == '/arabic') {
 	console.log('yay');
 	var body = document.getElementsByTagName("body")[0];
 	body.classList.add('gimme-js');
+	console.log(body);
 } else {
 	console.log('nope');
 }
