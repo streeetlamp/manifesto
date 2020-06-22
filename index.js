@@ -30,7 +30,7 @@ var getLocation = function(href) {
 var l = getLocation("https://www.firstthingsfirst2020.org/arabic");
 
 if (l.pathname == '/arabic') {
-	document.getElementsByTagName("body")[0].style.fontSize = "16px";
+	document.getElementsByTagName("body")[0].style.fontSize = "18px";
 }
 
     new Vue({
