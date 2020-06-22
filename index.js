@@ -29,7 +29,7 @@ var getLocation = function(href) {
 };
 var l = getLocation("https://www.firstthingsfirst2020.org/arabic");
 
-if (getLocation(l.pathname) == '/arabic') {
+if (l.pathname == '/arabic') {
 	console.log('yay');
 }
 
